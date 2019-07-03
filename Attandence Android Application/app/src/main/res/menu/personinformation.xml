@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:title="userInformation"
+        android:id="@+id/person"
+        android:icon="@drawable/personinformation"
+        app:showAsAction="ifRoom"/>
+
+    <item android:title="AboutDeveloper"
+        android:id="@+id/aboutdeveloper"
+        app:showAsAction="ifRoom"/>
+
+    <item android:title="Term Condition"
+        android:id="@+id/termcondition"
+        app:showAsAction="ifRoom"/>
+
+    <item android:title="signout"
+        android:id="@+id/signout"
+        app:showAsAction="ifRoom"/>
+</menu>

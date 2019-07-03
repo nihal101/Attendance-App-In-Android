@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="shadowcolor">#1b1b1b</color>
+    <color name="button_cardview">#ea0810</color>
+    <color name="textview">#0009ff</color>
+    <color name="Black">#111112</color>
+</resources>

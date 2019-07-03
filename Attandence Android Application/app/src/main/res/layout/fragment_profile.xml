@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ProfileFragment"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearlayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/user_logo" />
+
+            <TextView
+                android:id="@+id/name1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name:"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/collegename1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="College Name:"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name"/>
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Username"
+                android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:layout_marginTop="20dp"/>
+            <EditText
+                android:id="@+id/mobileNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="mobile No."
+                android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:id="@+id/branch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Branch"
+                android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:id="@+id/position"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Position"
+                android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:id="@+id/collegename"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="CollegeName"
+                android:layout_marginTop="20dp"/>
+        </LinearLayout>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            android:elevation="10dp"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="#ff000fff">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/circleImage"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/donebtn"
+                />
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+
+</ScrollView>

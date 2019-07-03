@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Master Kit</string>
+    <string name="login_name">login</string>
+    <string name="create_name">create</string>
+    <string name="hint_name">name</string>
+    <string name="hint_branch">branch</string>
+    <string name="hint_passward">password</string>
+    <string name="hint_reenterpassward">confirm-password</string>
+    <string name="hint_username">username</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
